@@ -13,7 +13,17 @@ public class Rectangle {
     }
 
     public int area() {
+
+        if(length <0 || breadth<0){
+            throw new RuntimeException("side cannot be negative");
+        }
+
         return (length * breadth);
+    }
+
+    public int perimeter() {
+
+        return 2*(length + breadth);
     }
 
 
