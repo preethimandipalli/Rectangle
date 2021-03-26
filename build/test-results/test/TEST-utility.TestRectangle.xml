@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="utility.TestRectangle" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-03-26T11:01:23" hostname="MacBook-Air-4.local" time="0.07">
+<testsuite name="utility.TestRectangle" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-03-26T15:29:47" hostname="MacBook-Air-4.local" time="0.105">
   <properties/>
-  <testcase name="testPerimeterOfRectangleForPositiveValuedLengthAndBreadth()" classname="utility.TestRectangle" time="0.038"/>
+  <testcase name="testPerimeterOfSquareForPositiveValuedSide()" classname="utility.TestRectangle" time="0.041"/>
+  <testcase name="testPerimeterOfSquareForZeroValueSide()" classname="utility.TestRectangle" time="0.002"/>
+  <testcase name="testPerimeterOfRectangleForPositiveValuedLengthAndBreadth()" classname="utility.TestRectangle" time="0.001"/>
   <testcase name="testAreaOfRectangleForNegativeValuedLength()" classname="utility.TestRectangle" time="0.01"/>
   <testcase name="testPerimeterOfRectangleForNegativeValuedBreadth()" classname="utility.TestRectangle" time="0.001"/>
+  <testcase name="testPerimeterOfSquareForNegativeValueSide()" classname="utility.TestRectangle" time="0.002"/>
   <testcase name="testPerimeterOfRectangleForZeroValuedBreadth()" classname="utility.TestRectangle" time="0.001"/>
+  <testcase name="testAreaOfSquareForZeroValuedSide()" classname="utility.TestRectangle" time="0.001"/>
   <testcase name="testAreaOfRectangleForPositiveValuedLengthAndBreadth()" classname="utility.TestRectangle" time="0.001"/>
   <testcase name="testPerimeterOfRectangleForNegativeValuedLength()" classname="utility.TestRectangle" time="0.001"/>
   <testcase name="testAreaOfRectangleForZeroValuedLength()" classname="utility.TestRectangle" time="0.001"/>
-  <testcase name="testAreaOfRectangleForNegativeValuedBreadth()" classname="utility.TestRectangle" time="0.002"/>
-  <testcase name="testPerimeterOfRectangleForZeroValuedLength()" classname="utility.TestRectangle" time="0.001"/>
-  <testcase name="testAreaOfRectangleForNegativeValuedLengthAndBreadth()" classname="utility.TestRectangle" time="0.002"/>
+  <testcase name="testAreaOfSquareForNegativeValuedSide()" classname="utility.TestRectangle" time="0.002"/>
+  <testcase name="testAreaOfRectangleForNegativeValuedBreadth()" classname="utility.TestRectangle" time="0.004"/>
+  <testcase name="testAreaOfSquareForPositiveValuedSide()" classname="utility.TestRectangle" time="0.002"/>
+  <testcase name="testPerimeterOfRectangleForZeroValuedLength()" classname="utility.TestRectangle" time="0.009"/>
+  <testcase name="testAreaOfRectangleForNegativeValuedLengthAndBreadth()" classname="utility.TestRectangle" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

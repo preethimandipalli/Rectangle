@@ -5,6 +5,14 @@ public class Rectangle {
     int length;
     int breadth;
 
+    public Rectangle(int side){
+
+        this.length = side;
+        this.breadth = side;
+
+    }
+
+
     public Rectangle(int length, int breadth) {
 
         this.length = length;
@@ -17,7 +25,6 @@ public class Rectangle {
         if(length <0 || breadth<0){
             throw new RuntimeException("side cannot be negative");
         }
-
         return (length * breadth);
     }
 
