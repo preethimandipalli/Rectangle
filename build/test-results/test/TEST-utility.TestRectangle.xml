@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="utility.TestRectangle" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-26T10:48:54" hostname="MacBook-Air-4.local" time="0.041">
+  <properties/>
+  <testcase name="testAreaOfRectangleForPositiveValuedLengthAndBreadth()" classname="utility.TestRectangle" time="0.037"/>
+  <testcase name="testAreaOfRectangleForZeroValuedLength()" classname="utility.TestRectangle" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
